@@ -18,9 +18,21 @@
     <string name="title_activity_log">Log</string>
 	<string name="back">Back</string>
 	
-	<string name="difficulty">Difficulty</string>
+	<string name="difficulty">Difficulty:</string>
 	<string name="dangerLevel">PoPo Level</string>
 	<string name="overallRating">Overall Rating</string>
 	<string name="comments">comments</string>
+	
+	<string name="1">1</string>
+	<string name="2">2</string>
+	<string name="3">3</string>
+	<string name="4">4</string>
+	<string name="5">5</string>
+	<string name="6">6</string>
+	<string name="7">7</string>
+	<string name="8">8</string>
+	<string name="9">9</string>
+	<string name="10">10</string>
+	
 
 </resources>
