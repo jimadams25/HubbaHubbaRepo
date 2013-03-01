@@ -10,5 +10,12 @@
     <string name="facebook"> facebook </string>
     <string name="viewMap"> View Map</string>
 
+    
+  
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="rememberPassword">Remember Password</string>
+    <string name="title_activity_log">Log</string>
+	<string name="back">Back</string>
 
 </resources>
