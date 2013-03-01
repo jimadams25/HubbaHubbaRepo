@@ -17,5 +17,10 @@
     <string name="rememberPassword">Remember Password</string>
     <string name="title_activity_log">Log</string>
 	<string name="back">Back</string>
+	
+	<string name="difficulty">Difficulty</string>
+	<string name="dangerLevel">PoPo Level</string>
+	<string name="overallRating">Overall Rating</string>
+	<string name="comments">comments</string>
 
 </resources>
