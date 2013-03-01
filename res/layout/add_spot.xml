@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#000" >
+		
+        <Button
+
+            android:layout_alignParentLeft="true"
+            android:id = "@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+            
+        
+        <TextView
+            android:id = "@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signUp"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#FFF" 
+        android:layout_marginLeft="50dp" >
+
+        <TextView
+            android:id = "@+id/difficulty"
+            android:layout_above="@+id/oneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty"
+            tools:context=".MainActivity"
+            android:layout_alignLeft="@+id/oneButton"
+            android:textSize="20sp"
+            android:textColor="#000" />
+        <Button
+            android:id = "@+id/oneButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/1"
+            tools:context=".MainActivity"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        <Button
+
+            android:layout_toRightOf="@+id/oneButton"
+            android:id = "@+id/twoButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/2"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF"
+        />
+        
+        <Button
+
+            android:id = "@+id/threeButton"
+            android:layout_toRightOf="@+id/twoButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/3"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/fourButton"
+            android:layout_toRightOf="@+id/threeButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/4"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/fiveButton"
+            android:layout_toRightOf="@+id/fourButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/5"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/sixButton"
+            android:layout_toRightOf="@+id/fiveButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/6"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/sevenButton"
+            android:layout_toRightOf="@+id/sixButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/7"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/eightButton"
+            android:layout_toRightOf="@+id/sevenButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/8"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/nineButton"
+            android:layout_toRightOf="@+id/eightButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/9"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+        
+        <Button
+
+            android:id = "@+id/tenButton"
+            android:layout_toRightOf="@+id/nineButton"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/10"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:background="#000"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFF" >
+
+        <EditText
+        android:id = "@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#FFF" >
+
+       <EditText
+        android:id = "@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password" />
+
+    </RelativeLayout>
+    
+     
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#FFF"
+        android:layout_marginRight="100dp">
+
+        <CheckBox
+            android:id="@+id/CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/rememberPassword" />
+
+        <TextView
+            android:id="@+id/rememberPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/CheckBox"
+            android:layout_alignBottom="@+id/CheckBox"
+            android:layout_alignParentRight="true"
+            android:hint="@string/rememberPassword" />
+
+    </RelativeLayout>
+
+</LinearLayout>
