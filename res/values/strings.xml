@@ -9,8 +9,6 @@
     <string name="signUp"> Sign Up</string>
     <string name="facebook"> facebook </string>
     <string name="viewMap"> View Map</string>
-
-    
   
     <string name="password">Password</string>
     <string name="username">Username</string>
@@ -19,10 +17,12 @@
 	<string name="back">Back</string>
 	
 	<string name="difficulty">Difficulty:</string>
-	<string name="dangerLevel">PoPo Level</string>
-	<string name="overallRating">Overall Rating</string>
-	<string name="comments">comments</string>
+	<string name="dangerLevel">Police:</string>
+	<string name="overallRating">Overall:</string>
+	<string name="comments">Comments:</string>
+	<string name="commentHint">Landing, materials, hazzards, etc.</string>
 	
+	<string name="addSpot">Add Spot</string>
 	<string name="1">1</string>
 	<string name="2">2</string>
 	<string name="3">3</string>
@@ -33,6 +33,34 @@
 	<string name="8">8</string>
 	<string name="9">9</string>
 	<string name="10">10</string>
+	<string name="showOff">Show Off:</string>
+	<string name="browseButton">Browse</string>
+	<string name="browseBar">Upload File</string>
+	<string name="locateOnMap">Locate on Map</string>
+	
+	<string name="address">Address*</string>
+	<string name="cityStateZip">City, State, Zip*</string>
+	<string name="spotTitle">Spot Title*</string>
+	<string name="cancel">Cancel</string>
+	<string name="continu">Continue</string>
+	
+	<!-- Array of Types of Spots -->
+	
+	<string-array name="spotTypes">
+        <item>Hubba</item>
+        <item>Handrail</item>
+        <item>Flat Rail</item>
+        <item>ledge(s)</item>
+        <item>Transition</item>
+        <item>Miniramp</item>
+        <item>Gap</item>
+        <item>Stairs</item>
+        <item>Skate Park</item>
+        <item>Bank</item>
+    </string-array>
+	
+	<!-- End of Array for Types of Spots -->
+	
 	
 
 </resources>
