@@ -8,75 +8,127 @@
 package com.android.hubbahubba;
 
 public final class R {
+    public static final class array {
+        /**  Array of Types of Spots 
+         */
+        public static final int spotTypes=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_action_search=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int button_layout=0x7f020000;
+        public static final int ic_action_search=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int CheckBox=0x7f070005;
-        public static final int backButton=0x7f070000;
-        public static final int connectButton=0x7f070009;
-        public static final int difficulty=0x7f07000b;
-        public static final int eightButton=0x7f070013;
-        public static final int fiveButton=0x7f070010;
-        public static final int fourButton=0x7f07000f;
-        public static final int logInButton=0x7f070007;
-        public static final int menu_settings=0x7f070016;
-        public static final int nineButton=0x7f070014;
-        public static final int oneButton=0x7f07000c;
-        public static final int password=0x7f070004;
-        public static final int rememberPassword=0x7f070006;
-        public static final int sevenButton=0x7f070012;
-        public static final int signUp=0x7f070001;
-        public static final int signUpButton=0x7f070008;
-        public static final int sixButton=0x7f070011;
-        public static final int tenButton=0x7f070015;
-        public static final int threeButton=0x7f07000e;
-        public static final int title=0x7f070002;
-        public static final int twoButton=0x7f07000d;
-        public static final int username=0x7f070003;
-        public static final int viewMapButton=0x7f07000a;
+        public static final int CheckBox=0x7f080005;
+        public static final int address=0x7f08000d;
+        public static final int backButton=0x7f080000;
+        public static final int browseBar=0x7f080037;
+        public static final int browseButton=0x7f080036;
+        public static final int cancelButton=0x7f080010;
+        public static final int cityStateZip=0x7f08000e;
+        public static final int commentBlock=0x7f080034;
+        public static final int comments=0x7f080033;
+        public static final int connectButton=0x7f080009;
+        public static final int continueButton=0x7f080011;
+        public static final int dangerLevel=0x7f08001d;
+        public static final int difficulty=0x7f080012;
+        public static final int eightButton=0x7f08001a;
+        public static final int eightButtonD=0x7f080025;
+        public static final int eightButtonO=0x7f080030;
+        public static final int fiveButton=0x7f080017;
+        public static final int fiveButtonD=0x7f080022;
+        public static final int fiveButtonO=0x7f08002d;
+        public static final int fourButton=0x7f080016;
+        public static final int fourButtonD=0x7f080021;
+        public static final int fourButtonO=0x7f08002c;
+        public static final int locateOnMap=0x7f08000b;
+        public static final int logInButton=0x7f080007;
+        public static final int menu_settings=0x7f080038;
+        public static final int nineButton=0x7f08001b;
+        public static final int nineButtonD=0x7f080026;
+        public static final int nineButtonO=0x7f080031;
+        public static final int oneButton=0x7f080013;
+        public static final int oneButtonD=0x7f08001e;
+        public static final int oneButtonO=0x7f080029;
+        public static final int overallRating=0x7f080028;
+        public static final int password=0x7f080004;
+        public static final int rememberPassword=0x7f080006;
+        public static final int sevenButton=0x7f080019;
+        public static final int sevenButtonD=0x7f080024;
+        public static final int sevenButtonO=0x7f08002f;
+        public static final int showOff=0x7f080035;
+        public static final int signUp=0x7f080001;
+        public static final int signUpButton=0x7f080008;
+        public static final int sixButton=0x7f080018;
+        public static final int sixButtonD=0x7f080023;
+        public static final int sixButtonO=0x7f08002e;
+        public static final int spotTitle=0x7f08000c;
+        public static final int spotTypeSpinner=0x7f08000f;
+        public static final int tenButton=0x7f08001c;
+        public static final int tenButtonD=0x7f080027;
+        public static final int tenButtonO=0x7f080032;
+        public static final int threeButton=0x7f080015;
+        public static final int threeButtonD=0x7f080020;
+        public static final int threeButtonO=0x7f08002b;
+        public static final int title=0x7f080002;
+        public static final int twoButton=0x7f080014;
+        public static final int twoButtonD=0x7f08001f;
+        public static final int twoButtonO=0x7f08002a;
+        public static final int username=0x7f080003;
+        public static final int viewMapButton=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_log=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_sign_up=0x7f030002;
         public static final int activity_view_map=0x7f030003;
-        public static final int add_spot=0x7f030004;
-        public static final int login_layout=0x7f030005;
+        public static final int add_location=0x7f030004;
+        public static final int add_spot=0x7f030005;
+        public static final int login_layout=0x7f030006;
     }
     public static final class menu {
-        public static final int activity_main=0x7f060000;
-        public static final int activity_sign_up=0x7f060001;
-        public static final int activity_view_map=0x7f060002;
-        public static final int login_layout=0x7f060003;
+        public static final int activity_main=0x7f070000;
+        public static final int activity_sign_up=0x7f070001;
+        public static final int activity_view_map=0x7f070002;
+        public static final int login_layout=0x7f070003;
     }
     public static final class string {
-        public static final int 1=0x7f040012;
-        public static final int 10=0x7f04001b;
-        public static final int 2=0x7f040013;
-        public static final int 3=0x7f040014;
-        public static final int 4=0x7f040015;
-        public static final int 5=0x7f040016;
-        public static final int 6=0x7f040017;
-        public static final int 7=0x7f040018;
-        public static final int 8=0x7f040019;
-        public static final int 9=0x7f04001a;
+        public static final int 1=0x7f040014;
+        public static final int 10=0x7f04001d;
+        public static final int 2=0x7f040015;
+        public static final int 3=0x7f040016;
+        public static final int 4=0x7f040017;
+        public static final int 5=0x7f040018;
+        public static final int 6=0x7f040019;
+        public static final int 7=0x7f04001a;
+        public static final int 8=0x7f04001b;
+        public static final int 9=0x7f04001c;
+        public static final int addSpot=0x7f040013;
+        public static final int address=0x7f040022;
         public static final int app_name=0x7f040000;
         public static final int back=0x7f04000d;
+        public static final int browseBar=0x7f040020;
+        public static final int browseButton=0x7f04001f;
+        public static final int cancel=0x7f040025;
+        public static final int cityStateZip=0x7f040023;
+        public static final int commentHint=0x7f040012;
         public static final int comments=0x7f040011;
+        public static final int continu=0x7f040026;
         public static final int dangerLevel=0x7f04000f;
         public static final int difficulty=0x7f04000e;
         public static final int facebook=0x7f040007;
         public static final int hello_world=0x7f040001;
+        public static final int locateOnMap=0x7f040021;
         public static final int logIn=0x7f040005;
         public static final int menu_settings=0x7f040002;
         public static final int overallRating=0x7f040010;
         public static final int password=0x7f040009;
         public static final int rememberPassword=0x7f04000b;
+        public static final int showOff=0x7f04001e;
         public static final int signUp=0x7f040006;
+        public static final int spotTitle=0x7f040024;
         public static final int title=0x7f040004;
         public static final int title_activity_log=0x7f04000c;
         public static final int title_activity_main=0x7f040003;
@@ -84,6 +136,6 @@ public final class R {
         public static final int viewMap=0x7f040008;
     }
     public static final class style {
-        public static final int AppTheme=0x7f050000;
+        public static final int AppTheme=0x7f060000;
     }
 }

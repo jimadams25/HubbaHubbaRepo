@@ -21,6 +21,7 @@
             android:layout_centerInParent="true"
             android:textSize="20sp"
             android:background="#000"
+            android:layout_marginLeft="10dp"
             android:textColor="#FFF" />
             
         
@@ -28,7 +29,7 @@
             android:id = "@+id/signUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/signUp"
+            android:text="@string/addSpot"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
             android:textSize="25sp"
@@ -37,12 +38,14 @@
     
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="100dp"
+        android:layout_height="60dp"
         android:background="#FFF" 
-        android:layout_marginLeft="50dp" >
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" >
 
         <TextView
             android:id = "@+id/difficulty"
+            android:layout_marginBottom="5dp"
             android:layout_above="@+id/oneButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,186 +56,532 @@
             android:textColor="#000" />
         <Button
             android:id = "@+id/oneButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/1"
             tools:context=".MainActivity"
-            android:layout_alignParentLeft="true"
-            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
         <Button
-
+			android:background="#000"
             android:layout_toRightOf="@+id/oneButton"
             android:id = "@+id/twoButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/2"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
-            android:background="#000"
+            android:textSize="20sp"
             android:textColor="#FFF"
-        />
+            android:layout_alignParentBottom="true" />
         
         <Button
 
             android:id = "@+id/threeButton"
             android:layout_toRightOf="@+id/twoButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/3"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
         
         <Button
 
             android:id = "@+id/fourButton"
             android:layout_toRightOf="@+id/threeButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/4"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
         
         <Button
 
             android:id = "@+id/fiveButton"
             android:layout_toRightOf="@+id/fourButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/5"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
         
         <Button
 
             android:id = "@+id/sixButton"
             android:layout_toRightOf="@+id/fiveButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/6"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
         
         <Button
 
             android:id = "@+id/sevenButton"
             android:layout_toRightOf="@+id/sixButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/7"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
         
         <Button
 
             android:id = "@+id/eightButton"
             android:layout_toRightOf="@+id/sevenButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/8"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
         
         <Button
 
             android:id = "@+id/nineButton"
             android:layout_toRightOf="@+id/eightButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/9"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
         
         <Button
 
             android:id = "@+id/tenButton"
             android:layout_toRightOf="@+id/nineButton"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
             android:text="@string/10"
             tools:context=".MainActivity"
             android:layout_centerInParent="true"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:background="#000"
-            android:textColor="#FFF" />
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:background="#FFF" >
-
-        <EditText
-        android:id = "@+id/username"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:hint="@string/username" />
-    </RelativeLayout>
-    
-     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:background="#FFF" >
-
-       <EditText
-        android:id = "@+id/password"
-        android:inputType="textPassword"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:hint="@string/password" />
-
-    </RelativeLayout>
-    
-     
-      <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="30dp"
-        android:background="#FFF"
-        android:layout_marginRight="100dp">
-
-        <CheckBox
-            android:id="@+id/CheckBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@+id/rememberPassword" />
+        android:layout_height="60dp"
+        android:background="#FFF" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" >
 
         <TextView
-            android:id="@+id/rememberPassword"
+            android:id = "@+id/dangerLevel"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/oneButtonD"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_alignBaseline="@+id/CheckBox"
-            android:layout_alignBottom="@+id/CheckBox"
-            android:layout_alignParentRight="true"
-            android:hint="@string/rememberPassword" />
+            android:layout_height="wrap_content"
+            android:text="@string/dangerLevel"
+            tools:context=".MainActivity"
+            android:layout_alignLeft="@+id/oneButton"
+            android:textSize="20sp"
+            android:textColor="#000" />
+        <Button
+            android:id = "@+id/oneButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/1"
+            tools:context=".MainActivity"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+			android:background="#000"
+            android:layout_toRightOf="@+id/oneButtonD"
+            android:id = "@+id/twoButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/2"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
+        
+        <Button
 
+            android:id = "@+id/threeButtonD"
+            android:layout_toRightOf="@+id/twoButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/3"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/fourButtonD"
+            android:layout_toRightOf="@+id/threeButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/4"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/fiveButtonD"
+            android:layout_toRightOf="@+id/fourButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/5"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/sixButtonD"
+            android:layout_toRightOf="@+id/fiveButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/6"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/sevenButtonD"
+            android:layout_toRightOf="@+id/sixButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/7"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/eightButtonD"
+            android:layout_toRightOf="@+id/sevenButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/8"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/nineButtonD"
+            android:layout_toRightOf="@+id/eightButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/9"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/tenButtonD"
+            android:layout_toRightOf="@+id/nineButtonD"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/10"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#FFF" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id = "@+id/overallRating"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/oneButtonO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overallRating"
+            tools:context=".MainActivity"
+            android:layout_alignLeft="@+id/oneButtonO"
+            android:textSize="20sp"
+            android:textColor="#000" />
+        <Button
+            android:id = "@+id/oneButtonO"
+           android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/1"
+            tools:context=".MainActivity"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+			android:background="#000"
+            android:layout_toRightOf="@+id/oneButtonO"
+            android:id = "@+id/twoButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/2"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
+        
+        <Button
+
+            android:id = "@+id/threeButtonO"
+            android:layout_toRightOf="@+id/twoButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/3"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
+        
+        <Button
+
+            android:id = "@+id/fourButtonO"
+            android:layout_toRightOf="@+id/threeButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/4"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF"
+            android:layout_alignParentBottom="true" />
+        
+        <Button
+
+            android:id = "@+id/fiveButtonO"
+            android:layout_toRightOf="@+id/fourButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/5"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/sixButtonO"
+            android:layout_toRightOf="@+id/fiveButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/6"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/sevenButtonO"
+            android:layout_toRightOf="@+id/sixButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/7"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/eightButtonO"
+            android:layout_toRightOf="@+id/sevenButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/8"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/nineButtonO"
+            android:layout_toRightOf="@+id/eightButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/9"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+        
+        <Button
+
+            android:id = "@+id/tenButtonO"
+            android:layout_toRightOf="@+id/nineButtonO"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="@string/10"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:background="#000"
+            android:textColor="#FFF" 
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:background="#FFF" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id = "@+id/comments"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comments"
+            tools:context=".MainActivity"
+            android:layout_alignLeft="@+id/comments"
+            android:layout_above="@+id/commentBlock"
+            android:textSize="20sp"
+            android:textColor="#000" />
+        
+        <EditText 
+            android:id="@id/commentBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="#000"
+            android:gravity="top"
+            android:hint="@string/commentHint"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:background="#FFF" >
+        
+        <TextView
+            android:id = "@+id/showOff"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showOff"
+            tools:context=".MainActivity"
+            android:layout_alignLeft="@+id/browseButton"
+            android:layout_above="@+id/browseButton"
+            android:textSize="20sp"
+            android:textColor="#000" />
+		
+        <Button
+
+            android:layout_alignParentLeft="true"
+            android:background="#ccc"
+            android:id = "@+id/browseButton"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/browseButton"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:layout_toLeftOf="@+id/browseBar"
+            android:textColor="#000" />
+            
+        
+        <TextView
+            android:id = "@+id/browseBar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/browseBar"
+            tools:context=".MainActivity"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:textColor="#000" />
     </RelativeLayout>
 
 </LinearLayout>
