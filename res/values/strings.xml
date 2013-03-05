@@ -61,6 +61,10 @@
 	
 	<!-- End of Array for Types of Spots -->
 	
+	<string name="name">First and Last Name</string>
+	<string name="email">Email</string>
+	<string name="keepLoggedIn">Keep Me Logged In</string>
+	<string name="confirmPassword">Confirm Password</string>
 	
 
 </resources>
