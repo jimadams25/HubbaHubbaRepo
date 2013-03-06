@@ -66,5 +66,10 @@
 	<string name="keepLoggedIn">Keep Me Logged In</string>
 	<string name="confirmPassword">Confirm Password</string>
 	
+	<string name="listView">List View</string>
+	<string name="add">add</string>
+	<string name="searchSpots">Search Spots</string>
+	<string name="show">Show...</string>
+	
 
 </resources>
